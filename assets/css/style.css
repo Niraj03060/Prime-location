@@ -12,6 +12,13 @@ body {
   max-width: 80%;
 }
 
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.411);
+}
+
 @media screen and (max-width: 1500px) {
   .container {
     max-width: 90%;
@@ -25,7 +32,7 @@ body {
 }
 
 .clr1 {
-  color: #BE9058;
+  color: #d8b035;
 }
 
 .clr2 {
@@ -184,7 +191,7 @@ header .navbar .navbar-brand {
 
 header .navbar .navbar-toggler {
   border: 1px solid #fff !important;
-  color: #BE9058;
+  color: #d8b035;
 }
 
 @media screen and (max-width: 600px) {
@@ -232,7 +239,7 @@ header .navbar .navbar-nav li.nav-item a.nav-link::before {
   position: absolute;
   width: 100%;
   height: 0%;
-  background: #BE9058;
+  background: #d8b035;
   bottom: 0;
   z-index: -1;
   left: 0;
@@ -307,20 +314,20 @@ section .container {
 #amenities {
   /* background: url("../img/bgaminites.jpg") no-repeat;
   background-size: cover; */
-  background-color: #BE9058;
+  background-color: #d8b035;
 }
 
 #amenities .deco {
   z-index: 1;
 }
 
-#amenities p {
+/* #amenities p {
   margin: -5% 0 0;
-}
+} */
 
 #amenities p span {
   background: #fff;
-  color: #BE9058;
+  color: #d8b035;
   padding: 14px 1.2rem;
 }
 
@@ -409,7 +416,7 @@ section .container {
 }
 
 #Gallery {
-  background-color: #BE9058;
+  background-color: #d8b035;
 }
 
 #Gallery .deco {
@@ -424,7 +431,7 @@ section .container {
 
 #Gallery p span {
   background: #fff;
-  color: #BE9058;
+  color: #d8b035;
   padding: 14px 1.2rem;
 }
 
@@ -488,7 +495,7 @@ section .container {
   opacity: 1;
 }
 #About {
-  background-color: #BE9058;
+  background-color: #d8b035;
   position: relative;
 }
 
@@ -518,7 +525,7 @@ section .container {
   position: absolute;
   width: 1px;
   right: 0;
-  background: #BE9058;
+  background: #d8b035;
   top: 25%;
   height: 50%;
 }
@@ -553,7 +560,7 @@ section .container {
 }
 
 #getintouch p {
-  color: #BE9058;
+  color: #d8b035;
 }
 
 #getintouch a {
@@ -561,8 +568,8 @@ section .container {
 }
 
 #getintouch input {
-  color: #BE9058;
-  border: 1px solid #BE9058;
+  color: #d8b035;
+  border: 1px solid #d8b035;
 }
 
 #getintouch input::-webkit-input-placeholder {
@@ -586,7 +593,7 @@ section .container {
 }
 
 .contact-highlight {
-  border: 5px solid #BE9058;
+  border: 5px solid #d8b035;
   padding: 1.5rem;
 }
 
@@ -733,7 +740,7 @@ footer {
 
 .enquiry-wrapper .enquiry-box .call-icon,
 .enquiry-wrapper .enquiry-box .mail-icon {
-  background-color: #BE9058;
+  background-color: #d8b035;
   width: 47px;
   padding: 7px;
   font-size: 17px;
@@ -956,11 +963,11 @@ button.btn {
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
-  background-color: #BE9058;
+  background-color: #d8b035;
 }
 
 button.btn i.fa {
-  color: #BE9058;
+  color: #d8b035;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
@@ -968,12 +975,12 @@ button.btn i.fa {
 button.btn.btnwhite {
   background: #fff;
   color: #000000;
-  border: 1px solid #BE9058;
+  border: 1px solid #d8b035;
   z-index: 1;
 }
 
 button.btn.btnwhite::before {
-  background: #BE9058;
+  background: #d8b035;
   border: 1px solid #fff;
   z-index: -1;
 }
@@ -1001,7 +1008,7 @@ button.btn::before {
 button.btn:hover {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
-  color: #BE9058;
+  color: #d8b035;
 }
 
 button.btn:hover i.fa {
@@ -1029,7 +1036,7 @@ button.btn:focus {
 .overlycricle {
   width: 80px;
   height: 80px;
-  background: #BE9058;
+  background: #d8b035;
   position: absolute;
   border-radius: 50%;
   left: 2%;
@@ -1111,7 +1118,7 @@ button.btn:focus {
   font-size: 3.5em;
   text-transform: uppercase;
   font-weight: 600;
-  color: #BE9058;
+  color: #d8b035;
 }
 
 @media screen and (max-width: 999px) {
@@ -1128,7 +1135,7 @@ button.btn:focus {
 
 #thank-you p {
   font-size: 1.2em;
-  color: #BE9058;
+  color: #d8b035;
 }
 
 @media screen and (max-width: 500px) {
@@ -1157,7 +1164,7 @@ button.btn:focus {
 
 .floor-plan {
   position: relative;
-  border: 1px solid #BE9058;
+  border: 1px solid #d8b035;
 }
 
 .floor-plan img {
@@ -1227,7 +1234,7 @@ button.btn:focus {
   font-size: 16px;
   padding: 0.6rem 2.5rem;
   color: #fff;
-  border: 1px solid #BE9058;
+  border: 1px solid #d8b035;
 }
 .social-btn i {
   font-size: 25px;
@@ -1427,7 +1434,7 @@ li {
   border-right: none;
   border-top: none;
   transform: rotate(45deg);
-  background: #BE9058;
+  background: #d8b035;
   position: absolute;
   box-shadow: 3px 3px 10px #222222;
   top: 0;
