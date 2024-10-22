@@ -223,6 +223,7 @@ header .navbar .navbar-nav li.nav-item a.nav-link {
 
 @media screen and (max-width: 1500px) {
   header .navbar .navbar-nav li.nav-item a.nav-link {
+    background-color: #ffffff;
     padding: 0.5rem 1.2rem;
     text-align: center;
   }
@@ -430,14 +431,14 @@ section .container {
 
 .box {
   margin: 10px 10px 10px 10px;
-    width: 40%;
-    height: fit-content;
-    border-radius: 20px;
-    padding: 10px;
-    border: 1px solid #d8b035;
-    text-align: center;
-    background: #ffffff;
-    box-shadow: 3px 3px 4px #d8b035;
+  width: 40%;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #d8b035;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 3px 3px 4px #d8b035;
 }
 
 .box1 {
@@ -529,8 +530,8 @@ ion-icon:hover {
   margin: 20px 30px 0px;
 }
 
-.social-links:hover{
- border: none;
+.social-links:hover {
+  border: none;
 }
 
 /* .button .message {
@@ -638,7 +639,7 @@ h5 {
   .job_discription {
     font-size: 0.88rem;
   }
-} 
+}
 
 /* Responsiveness:End */
 
@@ -653,7 +654,7 @@ h5 {
 }
 
 #Gallery p {
-  margin: -5% 0 0;
+  
   position: relative;
   z-index: 1;
 }
@@ -1188,8 +1189,9 @@ textarea {
 }
 
 button.btn {
-  font-size: 16px;
-  padding: 0.6rem 1.5rem;
+  font-size: 14px;
+  padding: 8px 20px;
+  font-weight: 600;
   position: relative;
   z-index: 1;
   border-radius: 0;
@@ -1830,12 +1832,89 @@ li {
 }
 
 
-.footer-links{
-  display: block ;
+.footer-links {
+  display: block;
   color: #ffffff;
   margin: 5px 0px;
 }
 
-.footer-links:hover{
+.footer-links:hover {
   color: #d8b035;
+}
+
+
+
+
+/* projects-section */
+
+.text-strong {
+  font-weight: 600;
+}
+
+.project-div {
+  border: 1px solid #595959;
+    padding: 15px 15px 5px 15px;
+    box-shadow: 2.5px 2.5px 4px #595959;
+    border-radius: 15px;
+    width: 23%;
+    margin: 15px 10px 15px 10px;
+}
+
+
+.projects-img{
+  border-radius: 15px;
+}
+
+.projects-text{
+  margin: 24px 0px 0px 0px;
+}
+
+.projects-main-div {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.projects-sec{
+  margin: 75px 100px 50px 100px;
+}
+
+.project-main-page-link{
+  position: relative;
+}
+
+.projects-link{
+  position: absolute;
+    top: 16px;
+    width: 110px;
+    height: 45px;
+    z-index: 9;
+}
+
+@media (max-device-width: 990px) {
+  .projects-sec{
+    margin: 75px 30px 0px 30px;
+  }
+
+  .project-div {
+    width: 30%;
+  }
+  .projects-link{
+   top: 130px;
+    width: 100%;;
+  }
+}
+
+@media (max-device-width: 700px){
+  .project-div {
+    width: 100%;
+  }
+}
+
+@media (max-device-width: 600px){
+  .projects-link{
+    top: 170px;
+     width: 100%;;
+   }
 }

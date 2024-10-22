@@ -1,6 +1,6 @@
 const popupForm = "#popupEnq";
 const form = "#popupEnqTwo";
-// const url = "https://hooks.zapier.com/hooks/catch/14298827/30d80cf/";
+const url = "https://hooks.zapier.com/hooks/catch/14298827/21gpz86/";
 
 $("document").ready(function () {
   $(popupForm).validate({
