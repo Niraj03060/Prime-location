@@ -1951,6 +1951,6 @@ li {
     width: 100%;
   }
   .job_discription {
-    text-align: center;
+    text-align: start;
   }
 }
