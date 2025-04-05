@@ -34,7 +34,7 @@ hr {
 }
 
 .clr1 {
-  color: #2eb100;
+  color: #2CB300;
 }
 
 .clr2 {
@@ -197,7 +197,7 @@ header .navbar .navbar-brand {
 
 header .navbar .navbar-toggler {
   border: 1px solid #fff !important;
-  color: #2eb100;
+  color: #2CB300;
 }
 
 @media screen and (max-width: 600px) {
@@ -214,7 +214,7 @@ header .navbar .navbar-toggler {
 
 header .navbar .navbar-nav li.nav-item a.nav-link {
   text-transform: uppercase;
-  color: #2eb100;
+  color: #2CB300;
   padding: 0.5rem 1rem;
   position: relative;
   z-index: 1;
@@ -327,7 +327,7 @@ section .container {
 #amenities {
   /* background: url("../img/bgaminites.jpg") no-repeat;
   background-size: cover; */
-  background-color: #2eb100;
+  background-color: #2CB300;
 }
 
 #amenities .deco {
@@ -340,7 +340,7 @@ section .container {
 
 #amenities p span {
   background: #fff;
-  color: #2eb100;
+  color: #2CB300;
   padding: 14px 1.2rem;
 }
 
@@ -443,10 +443,10 @@ section .container {
   height: fit-content;
   border-radius: 20px;
   padding: 10px;
-  border: 1px solid #2eb100;
+  border: 1px solid #2CB300;
   text-align: center;
   background: #ffffff;
-  box-shadow: 3px 3px 4px #2eb100;
+  box-shadow: 3px 3px 4px #2CB300;
 }
 
 .box1 {
@@ -490,7 +490,7 @@ section .container {
 .job_title {
   font-size: 1.15rem;
   font-weight: bolder;
-  color: #2eb100;
+  color: #2CB300;
   margin-top: 5px;
 }
 
@@ -519,7 +519,7 @@ section .container {
 }
 
 ion-icon:hover {
-  color: #2eb100;
+  color: #2CB300;
   transition: 0.5s;
   border: none;
 }
@@ -561,7 +561,7 @@ button.connect:hover {
 button.message:hover {
   letter-spacing: 1px;
   transition: 0.5s;
-  background: #2eb100;
+  background: #2CB300;
 }
 
 /* Content-1:End */
@@ -654,7 +654,7 @@ h5 {
 
 
 #Gallery {
-  background-color: #2eb100;
+  background-color: #2CB300;
 }
 
 #Gallery .deco {
@@ -669,7 +669,7 @@ h5 {
 
 #Gallery p span {
   background: #fff;
-  color: #2eb100;
+  color: #2CB300;
   padding: 14px 1.2rem;
 }
 
@@ -735,7 +735,7 @@ h5 {
 }
 
 #About {
-  background-color: #2eb100;
+  background-color: #2CB300;
   position: relative;
 }
 
@@ -765,7 +765,7 @@ h5 {
   position: absolute;
   width: 1px;
   right: 0;
-  background: #2eb100;
+  background: #2CB300;
   top: 25%;
   height: 50%;
 }
@@ -802,7 +802,7 @@ h5 {
 }
 
 #getintouch p {
-  color: #2eb100;
+  color: #2CB300;
 }
 
 #getintouch a {
@@ -810,8 +810,8 @@ h5 {
 }
 
 #getintouch input {
-  color: #2eb100;
-  border: 1px solid #2eb100;
+  color: #2CB300;
+  border: 1px solid #2CB300;
 }
 
 #getintouch input::-webkit-input-placeholder {
@@ -835,7 +835,7 @@ h5 {
 }
 
 .contact-highlight {
-  border: 5px solid #2eb100;
+  border: 5px solid #2CB300;
   padding: 1.5rem;
 }
 
@@ -985,7 +985,7 @@ footer {
 
 .enquiry-wrapper .enquiry-box .call-icon,
 .enquiry-wrapper .enquiry-box .mail-icon {
-  background-color: #2eb100;
+  background-color: #2CB300;
   width: 47px;
   padding: 7px;
   font-size: 17px;
@@ -1212,11 +1212,11 @@ button.btn {
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
-  background-color: #2eb100;
+  background-color: #2CB300;
 }
 
 button.btn i.fa {
-  color: #2eb100;
+  color: #2CB300;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
@@ -1224,12 +1224,12 @@ button.btn i.fa {
 button.btn.btnwhite {
   background: #fff;
   color: #000000;
-  border: 1px solid #2eb100;
+  border: 1px solid #2CB300;
   z-index: 1;
 }
 
 button.btn.btnwhite::before {
-  background: #2eb100;
+  background: #2CB300;
   border: 1px solid #fff;
   z-index: -1;
 }
@@ -1257,7 +1257,7 @@ button.btn::before {
 button.btn:hover {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
-  color: #2eb100;
+  color: #2CB300;
 }
 
 button.btn:hover i.fa {
@@ -1285,7 +1285,7 @@ button.btn:focus {
 .overlycricle {
   width: 80px;
   height: 80px;
-  background: #2eb100;
+  background: #2CB300;
   position: absolute;
   border-radius: 50%;
   left: 2%;
@@ -1367,7 +1367,7 @@ button.btn:focus {
   font-size: 3.5em;
   text-transform: uppercase;
   font-weight: 600;
-  color: #2eb100;
+  color: #2CB300;
 }
 
 @media screen and (max-width: 999px) {
@@ -1384,7 +1384,7 @@ button.btn:focus {
 
 #thank-you p {
   font-size: 1.2em;
-  color: #2eb100;
+  color: #2CB300;
 }
 
 @media screen and (max-width: 500px) {
@@ -1413,7 +1413,7 @@ button.btn:focus {
 
 .floor-plan {
   position: relative;
-  border: 1px solid #2eb100;
+  border: 1px solid #2CB300;
 }
 
 .floor-plan img {
@@ -1485,7 +1485,7 @@ button.btn:focus {
   font-size: 16px;
   padding: 0.6rem 2.5rem;
   color: #fff;
-  border: 1px solid #2eb100;
+  border: 1px solid #2CB300;
 }
 
 .social-btn i {
@@ -1694,7 +1694,7 @@ li {
   border-right: none;
   border-top: none;
   transform: rotate(45deg);
-  background: #2eb100;
+  background: #2CB300;
   position: absolute;
   box-shadow: 3px 3px 10px #222222;
   top: 0;
@@ -1723,7 +1723,7 @@ li {
 }
 
 .li.complete .status {
-  border-top: 2px solid #2eb100;
+  border-top: 2px solid #2CB300;
 }
 
 .status {
@@ -1736,7 +1736,7 @@ li {
 }
 
 .li.complete .status:before {
-  background-color: #2eb100;
+  background-color: #2CB300;
   border: none;
   transition: all 200ms ease-in;
 }
@@ -1786,7 +1786,7 @@ li {
   }
 
   .li.complete .status {
-    border-top: 2px solid #2eb100;
+    border-top: 2px solid #2CB300;
     width: 55%;
   }
 
@@ -1847,7 +1847,7 @@ li {
 }
 
 .footer-links:hover {
-  color: #2eb100;
+  color: #2CB300;
 }
 
 
@@ -1909,7 +1909,7 @@ li {
 
 
 .projects-link:hover {
-  background-color: #2eb100;
+  background-color: #2CB300;
   color: #000000;
   border-radius: 1rem;
   text-decoration: none;
